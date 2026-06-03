@@ -212,7 +212,7 @@ export default function HomePage() {
             <h2 className="font-bold text-slate-700 text-sm uppercase tracking-widest">
               AI Deep Dive &amp; Visual Summary Room
             </h2>
-            <span className="text-xs text-slate-400">Gemini 2.0 Flash · Enterprise</span>
+            <span className="text-xs text-slate-400">Gemini 2.5 Flash · Enterprise</span>
           </div>
           <SummaryPanel
             competitor={activeCompetitor}
