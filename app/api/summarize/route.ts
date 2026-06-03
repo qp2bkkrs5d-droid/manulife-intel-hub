@@ -1,15 +1,19 @@
 import { NextRequest, NextResponse } from "next/server";
 
 const SYSTEM_PROMPT = `You are a Chief Financial Analyst & Strategy Director at Manulife Asia.
-Analyze the competitor data provided. Output a highly professional executive summary in Traditional Chinese.
+Analyze the competitor data provided. Output a highly professional executive summary in English.
 Focus strictly on strategic implications for insurance agency management, recruitment, and multi-market localization.
-Structure your response with these sections:
-1. 執行摘要 (Executive Summary)
-2. 代理策略轉變 (Agency Strategy Shifts) — include MDRT growth plans, agent productivity targets
-3. 本地市場影響分析 (Local Market Implications) — focus on HK, VN, PH markets
-4. 建議行動項目 (Recommended Actions for Manulife)
+Structure your response with these exact sections using markdown:
 
-Use professional financial language. Be concise but substantive. Include specific numbers and percentages where relevant.`;
+## Executive Summary
+## Agency Strategy Shifts
+(Include MDRT growth plans, agent productivity targets, digital tool investments)
+## Local Market Implications
+(Focus on HK, VN, PH markets and any other relevant Asian markets)
+## Recommended Actions for Manulife
+
+Use professional financial language. Be concise but substantive. Include specific numbers and percentages where relevant.
+Pull from the most recent 2026 publicly available disclosures, announcements, and filings where possible.`;
 
 export async function POST(req: NextRequest) {
   const apiKey = process.env.GEMINI_API_KEY;
@@ -34,10 +38,10 @@ export async function POST(req: NextRequest) {
     }
 
     const userPrompt = `Competitor: ${competitorName}
-Report Type: ${reportType ?? "Annual Report 2025"}
+Report Type: ${reportType ?? "Annual Report / Latest 2026 Disclosure"}
 
-Please analyze the latest publicly available financial disclosures and strategic announcements from ${competitorName}.
-Generate a comprehensive intelligence report following the system instructions.`;
+Please analyze the most recent publicly available financial disclosures, strategic announcements, and press releases from ${competitorName} — prioritizing any 2026 data. If 2026 data is not yet available, use the most recent available (2025 or late 2024).
+Generate a comprehensive intelligence report in English following the system instructions.`;
 
     const geminiPayload = {
       system_instruction: {
@@ -89,50 +93,50 @@ Generate a comprehensive intelligence report following the system instructions.`
 }
 
 function getMockSummary(): string {
-  return `## 執行摘要
+  return `## Executive Summary
 
-友邦保險（AIA）2025年度報告顯示，集團新業務價值（NBV）按年增長18.3%，達到港幣68億元。代理人力規模擴張至全球320萬名活躍代理，其中亞太區佔比達72%。集團著重強調「Premier Agency」高端代理培訓計劃，MDRT資格達成率提升至行業平均值的2.4倍。
-
----
-
-## 代理策略轉變
-
-**MDRT增長計劃**
-- 目標於2026年將MDRT會員數量提升40%，主力發展香港、越南及菲律賓市場
-- 推出「Agency 3.0」數位化轉型計劃，每名代理配備AI輔助銷售工具
-- 代理人均產能（Case Rate）同比提升22%，至每月4.7件新單
-
-**數位化投資**
-- 全年科技投入達港幣12億元，專注於AI核保及客戶服務自動化
-- 推出「AIA+ MAX」代理App，整合客戶關係管理、保單查詢及推薦引擎
+AIA Group's latest 2026 disclosures indicate New Business Value (NBV) growth of 21.4% YoY, reaching HKD 7.8 billion for the trailing twelve months. Active agent headcount has expanded to 3.4 million globally, with Asia-Pacific representing 74% of the total force. The group continues to invest heavily in its "Premier Agency" elite training program, achieving MDRT qualification rates 2.6x the industry average — a meaningful competitive threat to Manulife's agency recruitment pipeline.
 
 ---
 
-## 本地市場影響分析
+## Agency Strategy Shifts
 
-**香港市場 🇭🇰**
-- AIA香港代理增員計劃：全年淨增8,200名活躍代理
-- 主攻內地訪港客戶（MCV）市場，保費貢獻佔比升至34%
-- 對萬通壽險競爭壓力：高端醫療及危疾產品直接競爭加劇
+**MDRT Growth Plans**
+- AIA has set a 2026 target of 45% growth in MDRT-qualified agents, focused on HK, VN, and PH markets
+- "Agency 3.0" digital transformation rollout is now complete: every active agent is equipped with an AI-assisted sales co-pilot tool
+- Agent case rate improved 24% YoY, averaging 5.1 new policies per agent per month
 
-**越南市場 🇻🇳**
-- 與VPBank深化銀保合作，預計2025年銀保收入增長35%
-- 下沉市場滲透策略：進入三線城市部署輕量化數位代理模式
-
-**菲律賓市場 🇵🇭**
-- 增員目標12,000名新代理，聚焦OFW（海外菲傭）保障需求
-- 微型保險產品線擴張，件均保費降至1,500菲律賓比索
+**Digital Investment**
+- Full-year technology spend reached HKD 1.4 billion, focused on AI underwriting and automated client servicing
+- "AIA+ MAX" agent app now integrates CRM, policy lookup, AI recommendation engine, and cross-sell triggers
 
 ---
 
-## 建議行動項目
+## Local Market Implications
 
-1. **立即行動** — 加快推進萬通「Elite Agency」計劃，針對性招募具MDRT資質的高效能代理，應對AIA搶人壓力
-2. **產品差異化** — 強化具萬通特色的「多元市場保障」產品，突出跨境理賠及多幣種結算優勢
-3. **科技追趕** — 加速代理數位工具部署，確保AI輔助銷售能力於Q3前達到市場同等水平
-4. **越南優先** — 在AIA銀保優勢鞏固前，加快與本地銀行夥伴的深化合作談判
+**Hong Kong 🇭🇰**
+- AIA HK net recruited 9,100 active agents in the past 12 months — outpacing the market
+- Mainland Chinese visitor (MCV) premiums now represent 37% of HK new business, up from 28% in 2024
+- Direct competitive pressure on Manulife: critical illness and premium medical products are primary battlegrounds
+
+**Vietnam 🇻🇳**
+- Deepened bancassurance partnership with VPBank; bancassurance revenue projected +38% for 2026
+- Tier-3 city expansion via lightweight digital-agent model is accelerating market penetration
+
+**Philippines 🇵🇭**
+- Agent recruitment target: 14,000 net new agents in 2026, focused on OFW protection needs
+- Micro-insurance product line expanded; average premium reduced to PHP 1,200 to capture underserved segments
 
 ---
 
-*本報告由Manulife AI競情系統自動生成，數據來源為公開披露資料。*`;
+## Recommended Actions for Manulife
+
+1. **Immediate** — Accelerate Manulife's Elite Agency program to counter AIA's aggressive MDRT recruitment drive; set a matched 40% MDRT growth target by end of 2026
+2. **Product Differentiation** — Strengthen Manulife's multi-market protection products, highlighting cross-border claims and multi-currency settlement — areas where AIA has less depth
+3. **Technology Parity** — Fast-track AI-assisted sales tool deployment; ensure capability parity with AIA+ MAX by Q3 2026 or risk further agent attrition
+4. **Vietnam Priority** — Secure deeper bancassurance partnerships with local banks before AIA consolidates its VPBank advantage
+
+---
+
+*Generated by Manulife AI Intelligence System. Source data: publicly available disclosures only.*`;
 }

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Manulife Regional Market & Competitor Intelligence Hub",
+  title: "Sonny Demo — Regional Market & Competitor Intelligence Hub",
   description: "AI Transformation PoC — Chief Agency Officer Review",
 };
 

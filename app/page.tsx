@@ -16,49 +16,49 @@ import PushToast from "./components/Toast";
 
 const COMPETITORS: Competitor[] = [
   {
-    id: "aia-2025-ar",
+    id: "aia-2026-ar",
     company: "AIA Group",
-    report: "2025 Annual Report",
-    date: "28 May 2025",
+    report: "2026 Strategy & Interim Disclosure",
+    date: "3 Jun 2026",
     isNew: true,
     isProcessed: true,
     markets: ["HK", "VN", "PH", "TH"],
   },
   {
-    id: "pru-q4-2024",
+    id: "pru-2026-q1",
     company: "Prudential plc",
-    report: "Q4 2024 Financial Disclosure",
-    date: "14 Feb 2025",
+    report: "Q1 2026 Financial Results",
+    date: "15 May 2026",
     isNew: true,
     isProcessed: true,
     markets: ["HK", "SG", "MY"],
   },
   {
-    id: "sunlife-2025",
+    id: "sunlife-2026",
     company: "Sun Life Asia",
-    report: "2025 Mid-Year Strategy Update",
-    date: "2 Jun 2025",
+    report: "2026 Asia Growth Strategy Update",
+    date: "28 Apr 2026",
+    isNew: true,
+    isProcessed: true,
+    markets: ["PH", "VN", "HK"],
+  },
+  {
+    id: "great-eastern-2026",
+    company: "Great Eastern Holdings",
+    report: "2026 Annual General Meeting Report",
+    date: "22 Apr 2026",
     isNew: false,
     isProcessed: true,
-    markets: ["PH", "VN"],
+    markets: ["SG", "MY", "ID"],
   },
   {
-    id: "fwd-2025",
+    id: "fwd-2026",
     company: "FWD Group",
-    report: "2025 Annual Report",
-    date: "19 Apr 2025",
+    report: "2026 Regional Expansion Briefing",
+    date: "10 Mar 2026",
     isNew: false,
     isProcessed: false,
-    markets: ["HK", "TH", "ID"],
-  },
-  {
-    id: "tahk-2025",
-    company: "Transamerica / AEGON Asia",
-    report: "Agency Network Expansion Report",
-    date: "11 Mar 2025",
-    isNew: false,
-    isProcessed: false,
-    markets: ["HK", "MY"],
+    markets: ["HK", "TH", "ID", "VN"],
   },
 ];
 
@@ -67,7 +67,7 @@ const METRICS = [
     icon: Building2,
     label: "Competitors Tracked",
     value: "5",
-    sub: "AIA · Prudential · Sun Life · FWD · AEGON",
+    sub: "AIA · Prudential · Sun Life · Great Eastern · FWD",
     color: "text-[#007A48]",
     bg: "bg-[#007A48]/10",
   },
@@ -142,10 +142,10 @@ export default function HomePage() {
               </div>
               <div>
                 <h1 className="font-bold text-lg leading-tight tracking-tight">
-                  Manulife Regional Market &amp; Competitor Intelligence Hub
+                  Sonny Demo for Regional Market &amp; Competitor Intelligence Hub (AI Transformation PoC)
                 </h1>
                 <p className="text-white/60 text-xs mt-0.5 font-medium tracking-wide">
-                  AI Transformation PoC · Chief Agency Officer Review
+                  AI Transformation PoC · For Management Review
                 </p>
               </div>
             </div>
