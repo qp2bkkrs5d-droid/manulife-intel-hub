@@ -39,7 +39,7 @@ const MOCK: Record<"alpha" | "beta", CampaignData> = {
       id: "A",
       hook: "Emotional Hook",
       headline: "🌏 海外錢途，從這一步開始",
-      copy: "身處海外，仲憂慮資產貶值？友邦環球貨幣保障計劃幫你喺全球市場鎖定升值機遇，首年保費享10%折扣，立即行動！",
+      copy: "身處海外，仲憂慮資產貶值？環球貨幣保障計劃幫你喺全球市場鎖定升值機遇，首年保費享10%折扣，立即行動！",
       cta: "立即了解更多",
       platforms: ["Facebook Ad Integrated", "Instagram Post Ready"],
       ctr: 4.2,
@@ -49,7 +49,7 @@ const MOCK: Record<"alpha" | "beta", CampaignData> = {
       id: "B",
       hook: "Data-Driven Hook",
       headline: "📊 97% 新興中產客戶首選 — 環球貨幣增值方案",
-      copy: "數據顯示：20-40歲海外理財客群平均每年損失8.3%匯率差額。友邦環球貨幣保障計劃透過多幣種配置對沖風險，首批客戶限享10%保費折扣。",
+      copy: "數據顯示：20-40歲海外理財客群平均每年損失8.3%匯率差額。環球貨幣保障計劃透過多幣種配置對沖風險，首批客戶限享10%保費折扣。",
       cta: "免費獲取個人化方案",
       platforms: ["Facebook Ad Integrated", "Instagram Post Ready"],
       ctr: 6.8,
@@ -62,7 +62,7 @@ const MOCK: Record<"alpha" | "beta", CampaignData> = {
       intent: "環球理財 / 資產保值",
       capturedSource: "Instagram Ad B Winner",
       followUpSMS:
-        "陳先生，您好！🌏 感謝您對友邦環球貨幣保障計劃的興趣！根據您的理財目標，我們為您度身訂製了一個專屬方案 💼\n\n✅ 多幣種保障（港幣 · 美元 · 英鎊）\n✅ 首年保費專享10%折扣（限時優惠）\n✅ 靈活提取，隨時因應市場調整\n\n我們的顧問將於24小時內聯絡您，安排免費一對一諮詢 📞\n\n友邦香港 | AIA HK\nhttps://www.aia.com.hk",
+        "陳先生，您好！🌏 感謝您對環球貨幣保障計劃的興趣！根據您的理財目標，我們為您度身訂製了一個專屬方案 💼\n\n✅ 多幣種保障（港幣 · 美元 · 英鎊）\n✅ 首年保費專享10%折扣（限時優惠）\n✅ 靈活提取，隨時因應市場調整\n\n我們的顧問將於24小時內聯絡您，安排免費一對一諮詢 📞\n\nInsurance · HK\nhttps://www.insurance.com.hk",
     },
   },
   beta: {
@@ -70,7 +70,7 @@ const MOCK: Record<"alpha" | "beta", CampaignData> = {
       id: "A",
       hook: "Emotional Hook",
       headline: "👩‍⚕️ 終身呵護，從今天開始保障您的未來",
-      copy: "作為專業女性，您照顧家人的同時，有沒有好好照顧自己？友邦全方位高端醫療方案，保費回贈高達20%，讓您安心投入每一天。",
+      copy: "作為專業女性，您照顧家人的同時，有沒有好好照顧自己？全方位高端醫療方案，保費回贈高達20%，讓您安心投入每一天。",
       cta: "了解保費回贈詳情",
       platforms: ["Facebook Ad Integrated", "Instagram Post Ready"],
       ctr: 3.9,
@@ -80,7 +80,7 @@ const MOCK: Record<"alpha" | "beta", CampaignData> = {
       id: "B",
       hook: "Data-Driven Hook",
       headline: "📈 專業女性首選 — 全球頂級醫療網絡 · 保費回贈計劃",
-      copy: "研究顯示：30-50歲女性專業人士醫療支出比同齡男性高出34%。友邦全方位高端醫療方案涵蓋全球5,000+醫院，終身保障上限無限，投保即享保費回贈。",
+      copy: "研究顯示：30-50歲女性專業人士醫療支出比同齡男性高出34%。全方位高端醫療方案涵蓋全球5,000+醫院，終身保障上限無限，投保即享保費回贈。",
       cta: "立即計算您的回贈金額",
       platforms: ["Facebook Ad Integrated", "Instagram Post Ready"],
       ctr: 7.1,
@@ -93,14 +93,14 @@ const MOCK: Record<"alpha" | "beta", CampaignData> = {
       intent: "高端醫療保障 / 終身覆蓋",
       capturedSource: "Instagram Ad B Winner",
       followUpSMS:
-        "李女士，您好！👩‍💼 感謝您查詢友邦全方位高端醫療方案！作為重視自身保障的專業女性，您值得最好的醫療支援 🏥\n\n✅ 全球5,000+頂級醫院網絡\n✅ 終身保障，無上限賠付\n✅ 投保首年享專屬保費回贈\n✅ 專屬女性健康篩查服務\n\n我們的女性理財顧問將於今天內與您聯絡，為您提供度身訂製方案 💌\n\n友邦香港 | AIA HK\nhttps://www.aia.com.hk",
+        "李女士，您好！👩‍💼 感謝您查詢全方位高端醫療方案！作為重視自身保障的專業女性，您值得最好的醫療支援 🏥\n\n✅ 全球5,000+頂級醫院網絡\n✅ 終身保障，無上限賠付\n✅ 投保首年享專屬保費回贈\n✅ 專屬女性健康篩查服務\n\n我們的女性理財顧問將於今天內與您聯絡，為您提供度身訂製方案 💌\n\nInsurance · HK\nhttps://www.insurance.com.hk",
     },
   },
 };
 
 const CAMPAIGN_BRIEFS = {
   alpha:
-    "友邦環球貨幣保障計劃 — 目標客群：20-40歲海外理財新興中產；核心訴求：全球多幣種資產保值；限時優惠：首年保費10%折扣；渠道：Facebook + Instagram精準投放",
+    "環球貨幣保障計劃 — 目標客群：20-40歲海外理財新興中產；核心訴求：全球多幣種資產保值；限時優惠：首年保費10%折扣；渠道：Facebook + Instagram精準投放",
   beta: "全方位高端醫療方案 — 目標客群：30-50歲專業女性；核心訴求：終身高端醫療保障；限時優惠：投保即享保費回贈；渠道：Facebook + Instagram精準投放",
 };
 
@@ -169,10 +169,10 @@ function AdCard({ ad, animated }: { ad: AdCreative; animated: boolean }) {
         <div className="flex items-center gap-2 mb-2.5">
           <div className="w-7 h-7 rounded-full flex items-center justify-center text-xs font-black text-white shrink-0"
             style={{ backgroundColor: PRU_RED }}>
-            P
+            I
           </div>
           <div>
-            <p className="text-xs font-semibold text-slate-800">AIA HK</p>
+            <p className="text-xs font-semibold text-slate-800">Insurance HK</p>
             <p className="text-[10px] text-slate-400">Sponsored · Insurance</p>
           </div>
         </div>
@@ -356,16 +356,16 @@ export default function MartechLoopPage() {
       <header className="sticky top-0 z-50 bg-white border-b border-slate-200 shadow-sm">
         <div className="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            {/* AIA wordmark */}
+            {/* Wordmark */}
             <div className="flex items-center gap-1.5">
               <div className="w-7 h-7 rounded flex items-center justify-center text-sm font-black text-white"
                 style={{ backgroundColor: PRU_RED }}>
-                P
+                I
               </div>
-              <span className="font-black text-slate-800 text-sm tracking-tight">AIA</span>
+              <span className="font-black text-slate-800 text-sm tracking-tight">INSURANCE</span>
             </div>
             <div className="h-4 w-px bg-slate-200" />
-            <span className="text-xs text-slate-400 font-medium tracking-wide hidden sm:block">AI MarTech Platform</span>
+            <span className="text-xs text-slate-400 font-medium tracking-wide hidden sm:block">Insurance AI MarTech Platform</span>
           </div>
           <div className="flex items-center gap-2">
             <span className="flex items-center gap-1.5 text-[11px] font-semibold text-emerald-700 bg-emerald-50 border border-emerald-200 px-2.5 py-1 rounded-full">
@@ -383,7 +383,7 @@ export default function MartechLoopPage() {
             Next-Generation AI Marketing Technology
           </p>
           <h1 className="text-3xl md:text-4xl font-black text-slate-900 leading-tight mb-4 max-w-2xl">
-            AIA Next-Gen AI MarTech
+            Insurance Next-Gen AI MarTech
             <br />
             <span style={{ color: PRU_RED }}>Optimization Loop</span>
           </h1>
@@ -427,7 +427,7 @@ export default function MartechLoopPage() {
                         </p>
                         <p className="text-sm font-semibold text-slate-800 leading-snug">
                           {key === "alpha"
-                            ? "友邦環球貨幣保障計劃 (20-40歲海外理財/新興中產/10%保費折扣)"
+                            ? "環球貨幣保障計劃 (20-40歲海外理財/新興中產/10%保費折扣)"
                             : "全方位高端醫療方案 (30-50歲專業女性/注重終身保障/保費回贈)"}
                         </p>
                       </div>
@@ -707,8 +707,8 @@ export default function MartechLoopPage() {
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="w-5 h-5 rounded flex items-center justify-center text-[10px] font-black text-white"
-              style={{ backgroundColor: PRU_RED }}>P</div>
-            <span className="text-xs text-slate-400">AIA HK · AI MarTech Optimization Loop · PoC Demo</span>
+              style={{ backgroundColor: PRU_RED }}>I</div>
+            <span className="text-xs text-slate-400">Insurance HK · AI MarTech Optimization Loop · PoC Demo</span>
           </div>
           <span className="text-[11px] text-slate-300 hidden sm:block">Confidential · Internal Use Only</span>
         </div>

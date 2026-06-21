@@ -122,29 +122,29 @@ METRIC: Active Agents (Global) | 3.4M | up
 METRIC: MDRT Qualification Rate | 2.6× Industry Avg | up
 METRIC: Tech Investment | HKD 1.4B | neutral
 
-AIA Group's 2026 interim disclosures confirm accelerating momentum across Asia-Pacific. New Business Value reached HKD 7.8 billion for the trailing twelve months, driven by a record agency force and deepening bancassurance channels. The group's "Premier Agency" program now poses a direct recruitment threat to Manulife's talent pipeline across all key markets.
+Insurance Co. A Group's 2026 interim disclosures confirm accelerating momentum across Asia-Pacific. New Business Value reached HKD 7.8 billion for the trailing twelve months, driven by a record agency force and deepening bancassurance channels. The group's "Premier Agency" program now poses a direct recruitment threat to Manulife's talent pipeline across all key markets.
 
 ## Agency Strategy Shifts
 **MDRT Growth Plans**
-- AIA has set a 2026 target of **+45% MDRT-qualified agents**, prioritising HK, VN, and PH markets
+- Insurance Co. A has set a 2026 target of **+45% MDRT-qualified agents**, prioritising HK, VN, and PH markets
 - "Agency 3.0" digital co-pilot is now fully deployed — every active agent equipped with AI-assisted sales tooling
 - Agent case rate improved **+24% YoY**, averaging 5.1 new policies per agent per month
 
 **Digital & Technology**
 - Full-year tech spend reached **HKD 1.4 billion**, focused on AI underwriting and automated client servicing
-- "AIA+ MAX" super-app integrates CRM, policy lookup, AI recommendation engine, and cross-sell triggers in one platform
+- "Insurance Co. A+ MAX" super-app integrates CRM, policy lookup, AI recommendation engine, and cross-sell triggers in one platform
 
 ## Market Intelligence
 MARKET: HK | Net +9,100 new agents recruited YTD; MCV premiums now 37% of new business (↑ from 28% in 2024)
 MARKET: VN | VPBank bancassurance revenue projected +38% for 2026; tier-3 city digital-agent expansion underway
 MARKET: PH | 2026 target: 14,000 net new agents; micro-insurance avg premium cut to PHP 1,200 for OFW segment
-MARKET: TH | AIA Thailand reported 19% APE growth in Q1 2026; accelerating critical illness product push
+MARKET: TH | Insurance Co. A Thailand reported 19% APE growth in Q1 2026; accelerating critical illness product push
 
 ## Recommended Actions for Manulife
-ACTION: HIGH | Launch Elite Agency Counter-Offensive | Match AIA's MDRT +45% target with Manulife's own Elite Agency incentive programme by Q3 2026 to stem agent attrition.
-ACTION: HIGH | Accelerate AI Sales Tool Deployment | Fast-track capability parity with AIA+ MAX before year-end or risk a widening productivity gap with AIA agents.
-ACTION: MEDIUM | Differentiate on Cross-Border Products | Strengthen Manulife's multi-currency settlement and cross-border claims advantage — areas where AIA has less depth.
-ACTION: LOW | Secure Vietnam Bancassurance Partners | Begin negotiations with MB Bank and Techcombank before AIA's VPBank lock-in forecloses the top-tier channel.
+ACTION: HIGH | Launch Elite Agency Counter-Offensive | Match Insurance Co. A's MDRT +45% target with Manulife's own Elite Agency incentive programme by Q3 2026 to stem agent attrition.
+ACTION: HIGH | Accelerate AI Sales Tool Deployment | Fast-track capability parity with Insurance Co. A+ MAX before year-end or risk a widening productivity gap with Insurance Co. A agents.
+ACTION: MEDIUM | Differentiate on Cross-Border Products | Strengthen Manulife's multi-currency settlement and cross-border claims advantage — areas where Insurance Co. A has less depth.
+ACTION: LOW | Secure Vietnam Bancassurance Partners | Begin negotiations with MB Bank and Techcombank before Insurance Co. A's VPBank lock-in forecloses the top-tier channel.
 
-*Data as of: June 2026 · Source: AIA Group public disclosures, investor presentations & press releases*`;
+*Data as of: June 2026 · Source: Insurance Co. A Group public disclosures, investor presentations & press releases*`;
 }

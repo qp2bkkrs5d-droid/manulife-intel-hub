@@ -44,7 +44,7 @@ export default function PushToast({ visible, onClose }: Props) {
         {/* Message */}
         <div className="px-4 pb-4 pt-1">
           <p className="text-white font-semibold text-[13px] leading-snug">
-            🔔 [AI Alert] Prudential just published their 2025 report.
+            🔔 [AI Alert] Insurance Co. B just published their 2026 report.
           </p>
           <p className="text-white/60 text-[12px] mt-1 leading-snug">
             Local impact detected for HK & VN markets. Tap to view full AI analysis.

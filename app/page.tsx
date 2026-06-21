@@ -18,7 +18,7 @@ import MDRTOverlay from "./components/MDRTOverlay";
 const COMPETITORS: Competitor[] = [
   {
     id: "aia-2026-ar",
-    company: "AIA Group",
+    company: "Insurance Co. A",
     report: "2026 H1 Strategy & Interim Disclosure",
     date: "18 Jun 2026",
     isNew: true,
@@ -27,7 +27,7 @@ const COMPETITORS: Competitor[] = [
   },
   {
     id: "pru-2026-q1",
-    company: "Prudential plc",
+    company: "Insurance Co. B",
     report: "Q1 2026 Financial Results",
     date: "14 Jun 2026",
     isNew: true,
@@ -68,7 +68,7 @@ const METRICS = [
     icon: Building2,
     label: "Competitors Tracked",
     value: "5",
-    sub: "AIA · Prudential · Sun Life · Great Eastern · FWD",
+    sub: "Ins. Co. A · Ins. Co. B · Sun Life · Great Eastern · FWD",
     color: "text-[#007A48]",
     bg: "bg-[#007A48]/10",
   },

@@ -34,12 +34,12 @@ export default function AIChart() {
               <div
                 className="flex-1 rounded-sm bg-red-500/70 transition-all duration-700"
                 style={{ height: `${(b.aia / MAX) * 100}%` }}
-                title={`AIA: ${b.aia}`}
+                title={`Insurance Co. A: ${b.aia}`}
               />
               <div
                 className="flex-1 rounded-sm bg-blue-500/70 transition-all duration-700"
                 style={{ height: `${(b.pru / MAX) * 100}%` }}
-                title={`Prudential: ${b.pru}`}
+                title={`Insurance Co. B: ${b.pru}`}
               />
               <div
                 className="flex-1 rounded-sm bg-emerald-500/70 transition-all duration-700"
@@ -55,8 +55,8 @@ export default function AIChart() {
       {/* Legend */}
       <div className="flex gap-4 mt-3 pt-3 border-t border-slate-700">
         {[
-          { color: "bg-red-500", label: "AIA Group" },
-          { color: "bg-blue-500", label: "Prudential" },
+          { color: "bg-red-500", label: "Insurance Co. A" },
+          { color: "bg-blue-500", label: "Insurance Co. B" },
           { color: "bg-emerald-500", label: "Manulife" },
         ].map((l) => (
           <div key={l.label} className="flex items-center gap-1.5">
